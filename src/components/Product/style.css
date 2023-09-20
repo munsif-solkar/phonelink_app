@@ -1,0 +1,50 @@
+#product-group-title{
+    color: #2e2d2d;
+    margin:0px 0px 10px 5px;
+    max-width: max-content;
+    padding:5px 0px;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card{
+    background: #fff;
+    cursor: pointer;
+}
+
+.product-card .card-title{
+ 
+ font-size: 18px;
+ 
+}
+
+.product-card .card-title,.product-description{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.product-card:hover .card-title{
+    text-decoration: underline 1px #ccc;
+    
+  }
+
+.product-description{
+    color: #505050;
+    font-size: 15px;
+}
+
+.thumbnail{
+   
+    margin: 0 auto;
+}
+.load-more{
+    margin:25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding:0 2rem;
+}

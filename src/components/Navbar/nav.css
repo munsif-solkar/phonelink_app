@@ -1,0 +1,109 @@
+
+.app-logo{
+    width:120px;
+
+}
+nav{
+    box-shadow: 0px 0px 5px #c9c9c9;
+    padding: 1rem 3rem;    
+    display: flex;
+    align-items: center;
+}
+.nav-constants{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+.nav-constants .menu-button{
+  display: none;
+}
+
+.nav-wrap{
+  width:100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+nav .container{
+  display: flex;
+  align-items: center;
+
+}
+
+
+.show-menu {
+  display: block;
+ 
+}
+nav .nav-links{
+  margin:0px 10px;
+  width: 100%;
+}
+nav .nav-links a{
+  margin:0 5px;
+}
+
+.navbar-collapse,.navbar-nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.button-group{
+  margin: 0px 10px;
+  display: flex;
+  
+}
+
+.button-group a{
+  text-decoration: none;
+  font-weight: bold;
+  margin:0px 10px 0px 0px
+}
+.nav-item-group{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-custom-item{
+  margin:0 0px;
+}
+
+
+@media (max-width: 768px) {
+  nav{
+    display: block;
+    padding:10px;
+  }
+  .nav-constants,.button-group{
+    width: 100%;
+  }
+  .nav-constants .menu-button{
+    display: block;
+  }
+
+  .brand-logo{
+    width:100%;
+  }
+  nav .container{
+    flex-direction: column;
+  }
+nav .nav-wrap{
+  flex-direction: column;
+}
+  
+  nav .nav-links{
+    margin:20px 0 0 0;
+  }
+ nav .nav-links a{
+     display: block;
+     margin:6px 0;
+ }
+ nav
+    .app-logo {
+      width: 80px;
+    }
+    .button-group{
+      margin:10px 0px;
+    }
+  }

@@ -1,0 +1,29 @@
+.category-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category-card{
+    padding:0 0.5rem;
+    max-width: max-content;
+    border: none;
+    
+}
+
+.category-data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.category-data .card-text,.category-data .card-title{
+    color:#2b2b2b;
+
+}
+
+.category-card .card-body{
+    padding: 0;
+}
+.category-link .card-text:hover{
+    text-decoration: underline;
+}
